@@ -1,6 +1,6 @@
 # CasoFinalIntegradorTema4
 
-https://github.com/JLeoBlabble/CasoFinalIntegradorTema4.git 
+https://github.com/JLeoBlabble/CasoFinalIntegradorTema4.git
 
 ## Enunciado del Proyecto
 Para este proyecto, se te pide que implementes un intérprete "tiny-lisp" basado en la clase Variant y las capacidades de la Standard Template Library (STL) de C++. Deberás trabajar en CLion para este proyecto.
@@ -15,7 +15,7 @@ Implementar un método parse_json() que tome una cadena en formato JSON y la con
 ## Rúbrica
 ### (30%) Implementación de la clase Variant:
 Se implementó la clase Variant correctamente, y se incluyeron todos los tipos de datos requeridos.
-## (20%) Método to_string():
+### (20%) Método to_string():
 El método to_string() está implementado correctamente y devuelve una cadena de texto que representa correctamente la instancia de la clase Variant.
 ### (20%) Método to_json_string():
 El método to_json_string() está implementado correctamente y devuelve una representación JSON válida de la instancia de la clase Variant.
@@ -23,8 +23,21 @@ El método to_json_string() está implementado correctamente y devuelve una repr
 El método estático from_json_string() está implementado correctamente y puede tomar una cadena en formato JSON y convertirla en una instancia de la clase Variant.
 ### (15%) Método parse_json():
 El método parse_json() está implementado correctamente y puede tomar una cadena en formato JSON y convertirla en una instancia de la clase Variant.
-Entrega
+
+## Entrega
 
 Todo el código debe estar bien comentado y organizado.
 Se debe incluir un archivo README con instrucciones sobre cómo compilar y ejecutar tu programa.
 El proyecto debe compilarse sin errores ni advertencias en CLion.
+
+## Instrucciones para compilar y ejecutar el programa
+
+### Requisitos previos
+- Tener instalado CLion.
+- Tener instalada la biblioteca `json11`.
+
+### Pasos para compilar
+1. Clona el repositorio:
+   ```sh
+   git clone https://github.com/JLeoBlabble/CasoFinalIntegradorTema4.git
+   cd CasoFinalIntegradorTema4
